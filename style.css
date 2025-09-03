@@ -1,4 +1,3 @@
-/* Font Declaration */
 @font-face {
     font-family: 'Bungee';
     src: url('Bungee-Regular.ttf') format('truetype');
@@ -6,14 +5,7 @@
     font-style: normal;
 }
 
-/* Basic Styles */
-body {
-    font-family: 'Bungee', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000033; /* Dark blue background */
-    color: #ffffff; /* White text */
-}
+
 
 .container {
     max-width: 1200px;
@@ -34,7 +26,7 @@ a {
 .button {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #ff00ff; /* Placeholder pink/magenta for buttons */
+    background-color: #ff00ff;
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
@@ -43,15 +35,9 @@ a {
 }
 
 .button:hover {
-    background-color: #cc00cc; /* Darker pink on hover */
+    background-color: #cc00cc;
 }
 
-/* Header & Navigation */
-header {
-    background-color: #00004d; /* Slightly lighter dark blue for header */
-    padding: 20px;
-    text-align: center;
-}
 
 nav {
     display: flex;
@@ -79,33 +65,44 @@ nav ul li {
     padding: 100px 0;
 }
 
-/* Main Content Sections */
 section {
     padding: 50px 20px;
     text-align: center;
 }
 
-section:nth-child(even) {
-    background-color: #00004d;
-}
-
-/* Steps Section */
 .steps-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
 }
+.title-gif {
+    max-width: 600px;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
 
 .step {
     width: 22%;
-    background-color: #000066;
+    background-color: #8FA4B6;
+    color: #1B2936;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-/* Footer */
+.card {
+    background-color: #8FA4B6;
+    color: #1B2936;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+}
+
 footer {
     background-color: #00004d;
     text-align: center;
@@ -113,7 +110,21 @@ footer {
     margin-top: 50px;
 }
 
-/* Responsive Design */
+body {
+    font-family: 'Bungee', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1B3A5C;
+    color: #ffffff;
+}
+
+header {
+    background-color: #8BB9E0;
+    padding: 20px;
+    text-align: center;
+}
+
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
@@ -136,5 +147,9 @@ footer {
 
     .step {
         width: 80%;
+    }
+
+    .card {
+        width: 90%;
     }
 }
