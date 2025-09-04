@@ -90,7 +90,7 @@ section {
     margin-top: 30px;
 }
 .title-gif {
-    max-width: 600px;
+    max-width: 900px;
     width: 80%;
     height: auto;
     display: block;
@@ -114,6 +114,17 @@ section {
     padding: 30px;
     margin: 30px auto;
     width: 80%;
+    font-size: 1.1em;
+}
+
+.card ul {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.card li {
+    margin-bottom: 8px;
+    text-align: left;
 }
 
 footer {
