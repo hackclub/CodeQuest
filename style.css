@@ -38,6 +38,19 @@ a {
     background-color: #cc00cc;
 }
 
+.button.disabled {
+    opacity: 0.6;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.coming-soon {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 10px;
+    text-align: center;
+}
+
 
 nav {
     display: flex;
